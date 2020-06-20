@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(/Netflix/assets/cropped-1366-768-882548.jpg);
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(27, 27, 27);
+}
+
+header img{
+    margin-left: 60px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 20px;
+}
+a:hover{
+    color: rgb(179, 176, 176);
+    transition: 400ms;
+}
+
+.home-ul{
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    outline: none;
+    list-style-type: none;
+}
+
+main{
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h6{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.822);
+}
+h6:hover{
+    color: white;
+    transition: 800ms;
+    cursor: default;
+}
+h2{
+    margin-top: 0;
+}
+
+.inserir {
+    margin-top: 10px;
+    
+}
+.inserir input{
+    height: 50px;
+    width: 500px;
+}
+
+.inserir input:focus{
+    outline: none;
+}
+
+.inserir button {
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border: transparent;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
